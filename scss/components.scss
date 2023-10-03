@@ -1,0 +1,56 @@
+.dispatch-event {
+    width: 174px;
+
+    .date-time {
+        text-transform: uppercase;
+        color: gray;
+        font-size: 10px;
+        margin-bottom: 6px;
+
+    }
+
+    .dispatch-image {
+        width: 950px;
+        height: 280px;
+        overflow: hidden;
+        margin-right: 21px;
+
+        img {
+          width: 100%;
+        }
+    }
+
+    .title-bubble {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            h5 {
+                font-size: 11px;
+                margin-bottom: 4px;
+                color: black;
+            }
+        }
+
+        .bubble {
+            position: relative;
+            height: 70px;
+            width: 80px;
+            background-color: #79ADDC;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 4px;
+        }
+
+    }
+}
+
+@media (max-width: 860px) {
+    .dispatch-image {
+        flex-direction: column;
+           justify-content: space-between;
+           align-items: center;
+    }
+  }
